@@ -29,9 +29,9 @@ nav {
 }
 
 
-.menu {
+ul.menu {
     list-style: none;
-    padding: 1.5rem 2rem 0rem 1.5rem;
+    padding: 1.5rem 2.5rem 0rem 1.5rem;
     margin: 0;
 }
 
@@ -67,14 +67,27 @@ nav {
     font-weight: 900;
     border: 2px #6A5F8F solid;
     border-radius: 17px;
-    padding: 5% 18%;
+    padding: 8% 29% 5% 29%;
     color: #6A5F8F;
 }
+
 #buy:hover {
     color: white;
     background-color: #6A5F8F;
 }
 
+#buy-sticky {
+    text-transform: uppercase;
+    font-weight: 900;
+    border: 2px #6A5F8F solid;
+    border-radius: 17px;
+    padding: 8% 29% 5% 29%;
+    color: #6A5F8F;
+}
+#buy-sticky:hover {
+    color: white;
+    background-color: #6A5F8F;
+}
 /* MAIN START */
 
 section {
@@ -388,6 +401,16 @@ a#buy-button:hover {
 /* MAIN END*/
 
 @media (max-width:900px) {
+    #buy {
+        border: 2px rgb(255, 255, 255) solid;
+        color: rgb(255, 255, 255);
+    }
+    #buy:hover {
+        background: white;
+        color: #6A5F8F;
+    }
+
+
     .menu li a.menu-text {
         margin: 0rem 0.2rem 0rem 0.2rem;
     }
