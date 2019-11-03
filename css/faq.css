@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0D2F55;
+}
+
+/* ---------HEADER--------- */
+header {
+    text-align: right;
+}
+
+.menu {
+    list-style: none;
+    padding: 1.5rem 2rem 0rem 1.5rem;
+    margin: 0;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu li a.menu-text {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 3px;
+    transition: 0.3s ease;
+    padding: 0rem 0.5rem 0rem 0.5rem;
+    font-family: "Heebo";
+}
+
+.menu li a.menu-text:hover {
+    border-bottom: white 4px solid;
+    border-radius: 0%;
+}
+
+.menu li:first-child {
+    float: left;
+    padding-left: 0;
+}
+
+#logo {
+    width: 65px;
+}
+
+#buy {
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+/* ---------HEADER END--------- */
+
+
+/* ---------MAIN--------- */
+main {
+    margin-top: 9vh;
+}
+
+#form {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex-container {
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: white;
+}
+
+h1 {
+    font-family: "Heebo";
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    color: white;
+}
+
+#form {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 500;
+}
+
+#faq {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    width: 50%;
+}
+
+/* ---------MAIN END--------- */
+
+@media (max-width:900px) {
+    .menu li a.menu-text {
+        margin: 0rem 0.2rem 0rem 0.2rem;
+    }
+}

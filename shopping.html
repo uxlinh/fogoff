@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shopping cart</title>
+    <link rel="stylesheet" href="./css/shopping.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+</head>
+
+<body>
+
+        <header>
+                <nav id="navigation">
+                    <ul class="menu">
+                        <li>
+                            <a href="./index.html"> <img id="logo" src="./img/logo.png" alt="Fogoff logo">
+                            </a>
+                         </li>
+                            <li><a class="menu-text" href="./contact.html">CONTACT</a></li>
+                            <li><a class="menu-text" href="./faq.html">FAQ</a></li>
+                            <li><a  class="menu-text" id="buy" href="./shopping.html">Buy</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+    <!------------------ Main Start --------------->
+    <main>
+        <section id="form">
+
+            <h1 id="title">SHOPPING CART</h1>
+
+            <form action="" method="get">
+
+                <div class="flex-container">
+                    <div class="row1">
+                        <h3>Order summary</h3>
+                        <div class="inputs" id="antall">
+                            <label for="quantity">FOGOFF</label>
+                            <select name="quantity" id="quantity">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="row2">
+                        <h3>Customer information</h3>
+                        <div class="inputs" id="name">
+                            <label for="name">Full name</label>
+                            <input placeholder="John Fog" id="name" name="name" type="text">
+                        </div>
+                        <br>
+
+                        <div class="inputs" id="email">
+                            <label for="email">E-mail</label>
+                            <input placeholder="john.fog@example.com" type="email" name="epost" id="email">
+                        </div>
+                        <br>
+
+                        <div class="inputs" id="phone">
+                            <label for="phone-number">Phone Number</label>
+                            <input placeholder="+47 12345678" type="phone-number" name="phone-number" id="phone-number">
+                        </div>
+                        <br>
+
+                        <div class="inputs" id="date">
+                            <label for="date">Date of birth</label>
+                            <input placeholder="01.01.2019" type="date" name="date" id="date">
+                        </div>
+                        <br>
+
+                        <div class="inputs" id="address">
+                            <label for="address">Address</label>
+                            <input placeholder="Foggy street 1" type="address" name="address" id="address">
+                        </div>
+                        <br>
+
+                        <div class="inputs" id="zip">
+                            <label for="zip">Zip code</label>
+                            <input placeholder="0000" type="zip" name="zip" id="zip">
+                        </div>
+                        <br>
+
+                        <div class="inputs" id="city">
+                            <label for="city">City</label>
+                            <input placeholder="Foggy town" type="city" name="city" id="city">
+                        </div>
+                        <br>
+
+                        <div class="inputs" id="checkbox">
+                            <label>
+                                <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as
+                                billing
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="row3">
+                        <h3>Payment information</h3>
+                        <div class="inputs" id="cards">
+                            <label for="cards">Card type</label>
+                            <select name="card-type" id="card-type">
+                                <option value="1">Visa</option>
+                                <option value="2">MasterCard</option>
+                                <option value="3">American Express</option>
+                            </select>
+                        </div>
+                        <br>
+
+                        <div class="inputs" id="cardholder">
+                            <label for="cholder">Cardholder</label>
+                            <input type="text" id="cholder" name="cardholder" placeholder="John Fog">
+                        </div>
+                        <br>
+
+                        <div class="inputs" id="ccnum">
+                            <label for="ccnum">Credit card number</label>
+                            <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                        </div>
+                        <br>
+
+                        <div class="inputs" id="expdate">
+                            <label for="expdate">Exp. date</label>
+                            <input type="text" id="expdate" name="expdate" placeholder="01/2020">
+                        </div>
+                        <br>
+
+                        <div class="inputs" id="cvv">
+                            <label for="cvv">CVV</label>
+                            <input type="text" id="cvv" name="cvv" placeholder="123">
+                        </div>
+                        <br>
+
+                        <div class="inputs" id="submit">
+                            <button type="submit">CONFIRM ORDER</button>
+                        </div>
+
+                    </div>
+                </div>
+            </form>
+        </section>
+
+    </main>
+    <!------------------ Main End --------------->
+
+
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
