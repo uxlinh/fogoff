@@ -599,7 +599,8 @@ a#buy-button:hover {
         flex-direction: column-reverse;   
     }
 
-    h1#animation-title.section-title, h2#animation-subtitle.section-subtitle{
+    h1#animation-title.section-title, 
+    h2#animation-subtitle.section-subtitle{
         text-align: left;
         padding: 0;
     }
